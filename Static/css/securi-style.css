@@ -1,0 +1,511 @@
+/* CSS Document */
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+.whitebgc{
+	background-color:white;
+}
+
+.greybgc{
+	background-color:#E0E0E0;
+}
+
+.nav-right{
+}
+
+@media screen and (max-width: 768px) {
+		#btn_securi{
+			margin:0 auto;
+		}
+		#row_nav_left{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+
+		#row_nav_right{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		#btn_issuers{
+			margin:0 auto;
+			
+		}
+		#btn_investors{
+			
+		}
+		#nav_protocol{
+			text-align: center;
+		}
+	.footericon{
+		text-align: center;
+	}
+	.footerat{
+		text-align:center;
+	}
+	#footercopy{
+		margin:0 auto;
+	}
+	.maincard_left{
+			height:800px;
+		}
+	.maincard_right{
+			height:800px;
+		}
+		
+	}
+	
+	@media screen and (max-width: 480px) {
+		#btn_securi{
+			margin:0 auto;
+		}
+		#row_nav_left{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+
+		#row_nav_right{
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		#btn_issuers{
+			margin:0 auto;
+		}
+		#btn_investors{
+			
+		}
+		#nav_protocol{
+			text-align: center;
+		}
+		.footericon{
+		text-align: center;
+		}
+		.footerat{
+		text-align:center;
+		}
+		#footercopy{
+		margin:0 auto;
+		}
+		.maincard_left{
+			height:800px;
+		}
+		.maincard_right{
+			height: 800px;
+		}
+		
+    }
+
+
+button{
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+
+#row_nav_right{
+	margin-top:20px;
+}
+
+#row_nav_left{
+	margin-top:20px;
+}
+
+#nav_securi{
+	letter-spacing: 20px;
+	text-align: center;
+	font-size:18px;
+	color:#000000;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+#nav_protocol{
+	letter-spacing: 12px;
+	font-size:18px;
+	color:#000000;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+#btn_securi{
+	margin-left:60px;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:white;
+	letter-spacing: 26px;
+	margin-top:20px;
+	color:grey;
+}
+
+#btn_protocol{
+	margin:0 auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:white;
+	letter-spacing: 26px;
+	margin-top:20px;
+	color:grey;
+}
+
+#btn_aboutus{
+	margin:auto;
+	margin-top:3px;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#E0E0E0;
+	border:none;
+}
+
+#btn_aboutus2{
+	margin:auto;
+	margin-top:3px;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#ffffff;
+	border:none;
+}
+
+
+#btn_contactus{
+	margin:auto;
+	margin-top:3px;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#E0E0E0;
+	border:none;
+}
+
+#btn_contactus2{
+	margin:auto;
+	margin-top:3px;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#ffffff;
+	border:none;
+}
+
+#btn_signin{
+	margin:auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#FFFFFF;
+	border-color:#000000;
+	border-width:2px;
+	width:150px;
+}
+
+#signin:hover{
+	border-color:grey;
+	color:grey;
+}
+
+#signin_p{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#btn_signup{
+	margin:auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#000000;
+	color:#ffffff;
+	border-color:#000000;
+	border-width:2px;
+	width:150px;
+}
+
+#signup_p:hover{
+	border-color:#FFFFFF;
+}
+
+#signup_p{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#row2{
+	margin-top:100px;
+}
+
+.maincard_left{
+	margin-top:110px;
+	margin-left:50px;
+	margin-right:50px;
+	border:none;
+	height:300px;
+}
+
+.maincard_right{
+	margin-top:110px;
+	margin-left:50px;
+	margin-right:50px;
+	border-radius:0px;
+	height:300px;
+	border:none;
+}
+
+.card-message_main{
+	font-size:40px;
+	text-align: center;
+	letter-spacing: 4px;
+	font-weight:700;
+}
+
+.card-message_sub_left{
+	font-size:20px;
+	text-align:center;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+.card-message_sub_right{
+	font-size:16px;
+	text-align:center;
+	margin-top:20px;
+	letter-spacing:2px;
+}
+
+.card-message_sub2{
+	font-size:20px;
+	text-align:center;
+}
+
+.main_card_right_sub{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:5px;
+	margin-right:5px;
+	border:none;
+}
+
+.card-message_main_right{
+	font-size:30px;
+	text-align:center;
+	font-weight:500;
+}
+
+#btn-learnmore{
+	margin:0 auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:white;
+	border-color:black;
+}
+
+.bottomcard_right{
+	background-color:#E0E0E0;
+	border:none;
+	height:180px;
+}
+
+#row_left{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+#btn_issuers{
+	margin:0 auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#ffffff;
+	border-color:#000000;
+	border-width:medium;
+	letter-spacing: 2px;
+	margin-top:20px;
+	color:black;
+	width:150px;
+}
+
+#btn_issuers:hover{
+	border-color:grey;
+	color:grey;
+}
+
+#issuer_p{
+	border-style:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#issuer_p:hover{
+	border-style:solid;
+	border-color:grey;
+}
+
+#investor_p{
+	border-style:none;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#investor_p:hover{
+	border-style:solid;
+	border-color:#ffffff;
+}
+
+
+#btn_investors{
+	margin:0 auto;
+    display:block;
+	text-align: center;
+	align-content: center;
+	background-color:#000000;
+	border-color:#000000;
+	border-width:medium;
+	letter-spacing: 2px;
+	margin-top:20px;
+	color:#ffffff;
+	width:150px;
+}
+
+
+#footerleft{
+	font-size:10px;
+	margin-top:20px;
+}
+
+.footericon{
+	text-align: right;
+	padding:1vw;
+	color:#000000;
+	
+}
+
+/*For Issuers*/
+
+#nav_line{
+	color:grey;
+}
+
+#row_issuer{
+	margin-top:80px;
+}
+
+.card_grey{
+	background-color:#E0E0E0;
+	height:400px;
+	margin-left:80px;
+	margin-right:80px;
+	border:none;
+}
+
+.grey_card_h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size:26px;
+}
+
+.grey_card_h2{
+	text-align:center;
+	font-size:26px;
+}
+.grey_card_p{
+	text-align: center;
+	font-size:18px;
+	margin-top:40px;
+}
+.grey_card_btn{
+	background-color:#000000;
+	color:#ffffff;
+	margin:0 auto;
+	width:150px;
+	margin-top:40px;
+	text-align:center;
+	margin-left:30%;
+	height:40px;
+}
+
+.card_white{
+	margin-left:30px;
+	margin-top:20px;
+	border:none;
+}
+
+.card_white_p{
+	margin-top:20px;
+	margin-bottom:60px;
+	font-size:20px;
+}
+#footercopy{
+	font-size:10px;
+	margin-bottom:0px;
+	margin-top:70px;
+}
+
+#footernav2{
+	margin:0 auto;
+}
+
+.signincard{
+	border:none;
+}
+
+#signinform{
+	margin:0 auto;
+	background-color:#E0E0E0;
+	width:800px;
+	margin-top:40px;
+	height:500px;
+}
+
+#signintitle{
+	text-align: center;
+	margin-top:20px;
+}
+
+#signin_btn{
+	background-color:#FFFFFF;
+	color:#000000;
+	margin:0 auto;
+	width:150px;
+	margin-top:60px;
+	text-align:center;
+	margin-left:40%;
+	height:40px;
+}
+
+#fpwd{
+	color:dodgerblue;
+}
+#signinemail{
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:60px;
+}
+
+#signinpwd{
+	margin-left:40px;
+	margin-right:40px;
+	margin-top:40px;
+}
+
+#aboutuscontact_btn{
+	background-color:#000000;
+	color:#FFFFFF;
+	margin:0 auto;
+	width:150px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	height:40px;
+}
+
+/*ContactUs*/
+#contactus_submit_btn{
+	background-color:#000000;
+	color:#FFFFFF;
+	margin:0 auto;
+	width:150px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	height:40px;
+}

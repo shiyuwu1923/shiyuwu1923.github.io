@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Static/css/securi-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
+</head>
+
+<body id="for_issuers" data-spy="scroll" data-target="" data-offset="">
+<div class="container-fluid fixed-top" style="background-color:#FFFFFF;height:80px;">
+	<div class = "row">
+		<div class="col-sm-6 whitebgc">
+			<div class="row" id="row_nav_left">
+				<div class="col-sm-6">
+					<a href="index.html" style="text-decoration:none;"><p id="nav_securi">SECURI</p></a>
+				</div>
+				<div class="col-sm-6">
+					<a href="index.html" style="text-decoration:none;"><p id="nav_protocol">PROCOTOL</p></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="row" id="row_nav_right">
+				<div class="col-sm-3">
+					<a href="AboutUs.html" style="text-decoration:none"><button type="button" id="btn_aboutus2">ABOUT US</button></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="ContactUs.html" style="text-decoration:none"><button type="button" id="btn_contactus2">CONTACT US</button></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="SignIn.html" style="text-decoration: none"><button type="button" id="btn_signin"><p id="signin_p">SIGN IN</p></button></a>
+				</div>
+				<div class="col-sm-3">
+					<a href="SignUp.html" style="text-decoration: none"><button type="button" id="btn_signup"><p id="signup_p">SIGN UP</p></button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr id="line">
+</div>
+	
+    <div class="container-fluid" style="margin-top:100px;">
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-5" style="text-align:left;margin-top:100px;">
+				<h2 style="padding-left:40px;">Contact Us</h2>
+				<p style="padding-left:40px;padding-right:140px;padding-top:30px;text-align:left;">Please fill out the contact form provided and a representative will reach out shortly</p>
+			</div>
+			<div class="col-sm-5" style="margin-top:50px;">
+				<form action="/action_page.php">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group" style="text-align:center">
+								<label for="fname" style="float:left;">First Name:</label>
+								<input type="fname" class="form-control" id="fname">
+				  			</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group" style="text-align:center">
+								<label for="lname">Last Name:</label>
+								<input type="lname" class="form-control" id="lname">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group" style="margin-top:20px;">
+								<label for="email">Email:</label>
+								<input type="password" class="form-control" id="email">
+				  			</div>
+						</div>
+						<div class="col-sm-6">
+							 <div class="form-group" style="margin-top:20px;">
+								<label for="pnumber">Phone Number:</label>
+								<input type="pnumber" class="form-control" id="pnumber">
+				 			 </div>
+						</div>
+					</div>
+					<div class="form-group">
+      					<label for="message">Message:</label>
+      					<textarea class="form-control" rows="5" id="message"></textarea>
+    				</div>
+				  <button type="submit" id="contactus_submit_btn">Submit</button>
+				</form>
+			</div>
+			<div class="col-sm-1"></div>s
+		</div>
+	</div>
+	
+
+	<footer section="Footer" class="fixed-bottom">
+		<div class="row">
+			<div class="col-sm-6">
+				<p id="footercopy" >&copy; 2019 Securi Protocol, Inc</p >
+			</div>
+			<div class="col-sm-6">
+				<ul id="footernav2">
+				<a href="#" class="footericon float-right" style="margin-top:50px;"><i class="fa fa-twitter-square"></i></a>
+				<a href="#" class="footericon float-right" style="margin-top:50px;"><i class="fa fa-medium"></i></a>
+				<a href="#" class="footericon float-right" style="margin-top:50px;"><i class="fa fa-linkedin-square"></i></a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
