@@ -212,12 +212,14 @@ a{
 }
 
 #btn-learnmore{
-	margin:0 auto;
+	margin:auto;
     display:block;
 	text-align: center;
 	align-content: center;
-	background-color:white;
-	border-color:black;
+	background-color:#FFFFFF;
+	border-color:#000000;
+	border-width:2px;
+	width:150px;
 }
 
 .bottomcard_right{
@@ -347,8 +349,7 @@ a{
 }
 
 .card_white{
-	margin-left:30px;
-	margin-top:20px;
+	margin:0 auto;
 	border:none;
 }
 
